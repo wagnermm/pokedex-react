@@ -1,0 +1,92 @@
+.Container {
+    width: 100%;
+    background-color: #343a40;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.PokeDex {
+    background-color: rgb(146, 12, 12);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Pokedex-header {
+    background-color: rgb(126, 9, 9);
+    border-bottom: 1px solid rgb(53, 11, 11);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.Pokedex-bg-btn {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(16, 108, 168);
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+.Pokedex-md-btn {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(64, 168, 16);
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+.Pokedex-body {
+    padding: 20px;
+}
+
+.Pokedex-output {
+    margin-top: 30px;
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: scroll;
+}
+
+.Pokedex-output img {
+    width: 200px;
+}
+
+.Pokedex-input {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Pokedex-input input {
+    height: 40px;
+    outline: none;
+}
+
+.pokedex-btn {
+    background-color: rgb(16, 108, 168);
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 0 0 30px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
