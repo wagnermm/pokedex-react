@@ -14,7 +14,7 @@ function PokeDex() {
 
     const handleGetPokemon = () => {
         axios
-            .get("https://pokeapi.co/api/v2/pokemon?limit=100000")
+            .get("https://pokeapi.co/api/v2/pokemon?limit=1000")
             .then((res) => {
                 const pokemonData = res.data.results.map(pokemon => {
                     return axios.get(pokemon.url);

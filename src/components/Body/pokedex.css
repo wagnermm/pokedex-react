@@ -1,14 +1,13 @@
 .Container {
-    width: 100%;
     background-color: #343a40;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
 }
 
 .PokeDex {
+    width: 400px;
     background-color: rgb(146, 12, 12);
     display: flex;
     flex-direction: column;
@@ -18,6 +17,7 @@
 }
 
 .Pokedex-header {
+    width: 100%;
     background-color: rgb(126, 9, 9);
     border-bottom: 1px solid rgb(53, 11, 11);
     border-radius: 10px 10px 0 0;
@@ -89,4 +89,10 @@
     border-radius: 0 0 30px 0;
     border: 1px solid #fff;
     cursor: pointer;
+}
+
+@media(max-width: 768px) {
+    .PokeDex {
+        width: 100%;
+    }
 }
